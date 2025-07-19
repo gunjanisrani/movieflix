@@ -42,7 +42,7 @@ export const updateSearchCount = async(searchTerm, movie)=> {
 }
 
 // Function to get trending movies based on search count using appwrite
-// This function retrieves the top 5 movies with the highest search counts
+// This function retrieves the top 5 movies with the highest search count
 export const getTrendingMovies = async () => {
     try{
         const result = await database.listDocuments(DATABASE_ID, COLLECTION_ID, [

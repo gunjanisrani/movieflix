@@ -23,6 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# local environment variables
-.env.local
+
 

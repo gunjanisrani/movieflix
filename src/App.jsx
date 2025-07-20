@@ -105,7 +105,8 @@ const App = () => {
 
             <ul>
               {trendingMovies.map((movie,index ) => (
-                <li key={movie.$id}> //key helps React track changes in the list
+                //key helps React track changes in the list
+                <li key={movie.$id}> 
                   <p>{index+1}</p>
                   <img src={movie.poster_url} alt={movie.title} />
                 </li>
